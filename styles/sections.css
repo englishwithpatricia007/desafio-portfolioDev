@@ -1,0 +1,122 @@
+#intro {
+  margin: 0 180px 120px;
+  justify-content: center;
+
+  header {
+    width: 680px;
+    height: 327px;
+    text-align: center;
+  }
+
+  #avatar {
+    height: 96px;
+    width: 96px;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-bottom: 58px;
+  }
+
+  .icon {
+    border: 1px;
+    background-color: var(--gray-300);
+    font: var(--gray-300);
+    border-radius: 32px;
+  }
+
+  #tags{
+    margin-top: 80px;
+    margin-bottom: 94px;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    color: var(---gray-500);
+    
+    div {
+      margin-left: 16px;
+    }
+
+    div:nth-last-child {
+      margin-left: 0;
+    }
+
+    img {
+      width: 24px;
+      height: 24px;
+      margin-right: 8px;
+      margin-left: 16px;
+      margin-top: 8px;
+      margin-bottom: 8px;
+    }
+
+    span {
+      margin-top: 8px;
+      margin-right: 16px;
+      margin-bottom: 8px;
+    }
+    
+  }
+
+  #caretDoubleDown {
+    width: 32px;
+    height: 32px;
+    margin-left: 50%;
+
+  }
+
+}
+
+#projetos {
+  margin: 0 180px 120px;
+  justify-content: center;
+
+
+
+  header {
+    width: 1040px;
+    height: 61px;
+    text-align: center;
+    margin-top: 72;
+    margin-bottom: 56px;
+  }
+
+  figure {    
+    width: 330px;
+    height: 280px;
+    background-color: var(--gray-300);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+
+    p {
+      padding-left: 16px;
+      padding-right: 16px;
+      padding-bottom: 25px;
+    }
+
+    span {
+      margin-top: 4px;
+      margin-left: 16px;
+      padding-right: 16px;
+    }
+
+  }
+
+  img {
+    margin: 12px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    width: 306px;
+    height: 156px;
+    align-self: center;
+  }
+
+  #thumbnails {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+  grid-template-rows: repeat(2, auto);   /* 2 linhas */
+    gap: 8px;
+  }
+
+  
+}
