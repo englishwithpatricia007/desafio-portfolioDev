@@ -1,7 +1,7 @@
 #intro {
   background: no-repeat center/cover;
   background-image: url(../assets/Background_Intro.png);
-
+  height: 750px;
   #info {
     margin: 120px 163px 0px;
     display: flex; 
@@ -31,7 +31,7 @@
 
   #header-info-text {
     span{
-      padding-bottom: 8px;
+      padding-bottom: 6px;
     }
 
     h2{
