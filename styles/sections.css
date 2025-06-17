@@ -3,7 +3,7 @@
   background-image: url(../assets/Background_Intro.png);
   margin: 120px 163px 0px;
   #info {
-        display: flex; 
+    display: flex; 
     flex-direction: column; align-items: center;
   }
 
@@ -90,11 +90,18 @@
   justify-content: center;
   margin-top: 72px;
 
+  .centralizada {
+    display: flex;
+    justify-content: center; 
+    align-items: top;
+  }
+
   header {
     width: 1040px;
     height: 61px;
     text-align: center;
-    margin-bottom: 56px;
+    margin-bottom: 72px;
+
   }
 
   figure {    
@@ -131,10 +138,10 @@
   }
 
   #thumbnails {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 colunas */
-  grid-template-rows: repeat(2, auto);   /* 2 linhas */
-    gap: 8px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+    grid-template-rows: repeat(2, auto);   /* 2 linhas */
+    gap: 24px;
   }
 
   
