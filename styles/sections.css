@@ -87,8 +87,6 @@
 
 #projetos {
   margin: 72px 120px 144px;
-
-
   display: flex; 
   flex-direction: column; 
   align-items: center;
@@ -198,5 +196,52 @@
     margin-right: 24px;
   }
 
+
+}
+
+#contact {
+  background: no-repeat center/cover;
+  background-image: url(../assets/Background_Contacts.png);
+  height: 787px;
+  margin: 128px 120px 200px;
+
+
+  header {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    padding-bottom: 48px;
+
+    span, h2 {
+      padding-bottom: 8px;
+    }
+
+  }
+
+  #links{
+    margin-left: 363px;;
+    width: 400px;
+    height: 320px;
+    
+    div {
+      display: flex;
+      background-color: var(--gray-300);
+      border-radius: 8px; 
+      height: 68px;
+      padding-block: 20px;
+
+      img {
+        padding-left: 20px;
+        padding-right: 12px
+      } 
+
+      span {
+        width: 288px;
+      }
+
+    }
+
+
+  }
 
 }

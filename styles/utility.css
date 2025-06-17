@@ -6,7 +6,6 @@
   grid-auto-flow:column;
 }
 
-
 .subtitle {
   font: var(--subtitle);
   color: var(---gray-600);
