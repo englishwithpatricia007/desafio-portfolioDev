@@ -32,8 +32,8 @@
 
 body {
   font: var(--text-md);
-  background: no-repeat center/cover;
-  background-image: url(../assets/Background_Intro.png);
+  background: no-repeat;
+  background-color: var(--gray-200);
 }
 
 img {

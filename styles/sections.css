@@ -1,6 +1,8 @@
 #intro {
   margin: 0 180px 120px;
   justify-content: center;
+  background: no-repeat center/cover;
+  background-image: url(../assets/Background_Intro.png);
 
   header {
     width: 680px;
