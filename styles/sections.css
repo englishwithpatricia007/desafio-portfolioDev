@@ -86,22 +86,18 @@
 }
 
 #projetos {
-  margin: 0 180px 120px;
-  justify-content: center;
-  margin-top: 72px;
+  margin: 72px 120px 144px;
 
-  .centralizada {
-    display: flex;
-    justify-content: center; 
-    align-items: top;
-  }
+
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
 
   header {
     width: 1040px;
     height: 61px;
     text-align: center;
     margin-bottom: 72px;
-
   }
 
   figure {    
@@ -143,6 +139,64 @@
     grid-template-rows: repeat(2, auto);   /* 2 linhas */
     gap: 24px;
   }
-
   
+}
+
+#services {
+  background-color: var(--gray-100);
+  margin-right: 120px; 
+  margin-left: 120px;
+  height: 480px;
+
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+
+  header{
+    margin-top: 88px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  header span {
+    padding-bottom: 8px;
+  }
+
+  header h2 {
+    padding-bottom: 58px;
+  }
+
+  div {
+    border-top: 1px solid var(--gray-100);
+    border-radius: 12px;
+  }
+
+  #grid {
+    width: 888px; height: 155px;
+    align-content: center;
+
+    div {
+      border: solid 1px var(--gray-200);
+      padding: 20px ;
+
+      img {
+        padding-bottom: 20px;
+      }
+
+      span {
+        padding-bottom: 8px;
+      }
+    }
+
+  }
+
+  #grid div:nth-child(1){
+      margin-right: 24px;
+  }
+  #grid div:nth-child(2){
+    margin-right: 24px;
+  }
+
+
 }
